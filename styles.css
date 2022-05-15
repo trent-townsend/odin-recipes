@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Macondo&family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+h1,
+h2 {
+  font-family: "Montserrat", "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-family: "Macondo", fantasy, serif;
+  font-size: 1.5vw;
+}
+
 a:link {
   color: #a9cef4;
   text-decoration: none;
@@ -30,6 +46,8 @@ header {
   width: 75%;
   padding-left: 1em;
   padding-top: 3em;
+  font-family: inter, Arial, sans-serif;
+  font-size: 1rem;
 }
 
 .menu {
@@ -61,7 +79,6 @@ header {
   border: solid 0.1em #00000010;
   border-radius: 10px;
   margin: 1em;
-  
 }
 
 footer {
@@ -74,6 +91,7 @@ footer {
   color: white;
   width: 100%;
   margin: 0em;
+  font-family: inter, "Times New Roman", sans-serif;
 }
 
 #footer-nav-home {
