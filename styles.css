@@ -20,6 +20,11 @@ img {
   display: flex;
 }
 
+.image {
+  max-width: 30%;
+  height: auto;
+}
+
 main,
 header {
   width: 75%;
@@ -36,6 +41,27 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients {
+  background-color: #faebd7bf;
+  padding: 1em;
+  border: solid 0.1em #00000010;
+  border-radius: 10px;
+  margin: 1em;
+}
+
+.steps {
+  padding: 1em;
+  border: solid 0.1em #00000010;
+  border-radius: 10px;
+  margin: 1em;
+  
 }
 
 footer {
