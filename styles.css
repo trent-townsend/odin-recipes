@@ -102,13 +102,16 @@ footer {
   font-family: inter, "Times New Roman", sans-serif;
 }
 
-#footer-nav-home {
-  padding: 2em;
-}
-
 .footer-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 1.5em;
+  justify-content: center;
+}
+
+.footer-nav li {
+  display: inline-block;
+  height: auto;
+  width: 20vw;
+  padding: 2em;
+  margin: 0.5em;
 }
